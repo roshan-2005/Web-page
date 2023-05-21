@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif
+
+}
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(2, 7, 0);
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    color: rgb(234, 234, 239);
+}
+nav li
+{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+.main
+{
+    width: 100%;
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: rgb(248, 251, 252);
+    overflow: hidden;
+}
+.content h1{
+    font-size: 60px;
+    margin-bottom: 1%;
+    letter-spacing: 8px;
+}
+.content h2{
+font-size: 25px;
+margin-bottom: 3%;
+font-family: Verdana, Ge
+neva, Tahoma, sans-serif;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.spin{
+    color: rgb(0, 255, 251);
+}
+.content p{
+    font-size: 25px;
+    margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+button{
+    padding: 15px 30px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border-radius: 10px;
+    text-align: center;
+}
+button:hover{
+    background: rgb(255,10,10);
+    align-content: center;
+}
+.image{
+    background-image: url(file:///C:/Users/gamin/coded%20programs/car%20webiste/car.jpg);
+background-size: cover;
+height: max-content;
+max-width: max-content;
+}
